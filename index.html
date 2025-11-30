@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biodata Saya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigasi -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="nav-brand"></div>
+      <ul class="nav-menu">
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#hobi">Hobi</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <!-- Toggle Button untuk Mobile -->
+      <button class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Header (Profil) -->
+  <header id="profil">
+    <div class="container">
+      <div class="header-content">
+        <div class="profil-foto">
+          <img src="profile.jpg" alt="Foto Profil" onerror="this.src='https://placehold.co/140x180?text=Foto+Profil'" />
+        </div>
+        <div class="info-section">
+          <h1>Dimas Radithya Saputra</h1>
+          <div class="info-pribadi">
+            <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
+            <p><strong>Kelas:</strong> XII RPL</p>
+            <p><strong>Asal Sekolah:</strong> SMK Negeri 1 Malang</p>
+            <p><strong>Agama:</strong> Islam</p>
+            <p><strong>Alamat:</strong> Jl. Contoh No. 123, Malang</p>
+            <p><strong>No. HP:</strong> +62 812-3456-7890</p>
+          </div>
+
+          <!-- Hobi -->
+          <div class="hobi" id="hobi">
+            <h2>Hobi Saya:</h2>
+            <div class="daftar-hobi" id="daftar-hobi">
+              <!-- Diisi oleh JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container" id="tentang">
+    <h2>Tentang Saya</h2>
+
+    <div class="tentang-content">
+        <p></p>
+    </div>
+
+    <h2>Tentang Website Ini</h2>
+    <p>Website ini dibuat sebagai contoh biodata pribadi menggunakan HTML, CSS, dan JavaScript.</p>
+    <ul>
+      <li>Menampilkan informasi pribadi secara visual dan interaktif.</li>
+      <li>Memudahkan orang lain memahami minat dan identitas Anda.</li>
+      <li>Bisa digunakan untuk tugas sekolah, portofolio, atau profil online.</li>
+    </ul>
+  </main>
+  <!-- Footer (Kontak) -->
+  <footer id="kontak">
+    <div class="container">
+      <h3>Hubungi Saya</h3>
+      <p>Email: <a href="mailto:budi.santoso@example.com">budi.santoso@example.com</a></p>
+      <p>No. HP: <a href="tel:+6281234567890">+62 812-3456-7890</a></p>
+      <p>&copy; 2025 Biodata Saya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
